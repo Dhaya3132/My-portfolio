@@ -1,0 +1,135 @@
+@media screen and (max-width: 768px) {
+    .UnorderItem
+    {
+        display: none;
+    }
+    #sidebaricon{
+        display: flex;
+    }
+    .BlackBar{
+        width: 100%;
+    }
+    .Aboutme h3{
+        font-size: 30px;
+        width: 600px;
+    }
+    .About button{
+        padding: 40px;
+    }
+    .About p{
+        width: 80%;
+    }
+    .skillsection{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:430px) {
+
+    .ContentArea h3{
+        font-size: 35px;
+    }
+    .ContentArea h2{
+        font-size: 35px;
+    }
+    .Gifimage{
+        width: 400px;
+        height: 350px;
+    }
+
+    .BlackBar{
+        display: none;
+    }
+    .Aboutme{
+        margin-left: 5px;
+    }
+    .Aboutme h3{
+        width: 400px;
+    }
+    .About{
+        padding: 5px;
+    }
+    .About button{
+        padding: 30px;
+    }
+    .About p{
+        width: 95%;
+    }
+    .skillsection{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:380px) {
+
+    .ContentArea h3{
+        font-size: 30px;
+    }
+    .ContentArea h2{
+        font-size: 30px;
+    }
+    .Gifimage{
+        width: 350px;
+        height: 300px;
+    }
+
+    .BlackBar{
+        display: none;
+    }
+    .Aboutme{
+        margin-left: 5px;
+    }
+    .Aboutme h3{
+        width: 370px;
+    }
+    .About{
+        padding: 5px;
+    }
+    .About button{
+        padding: 30px;
+    }
+    .About p{
+        width: 95%;
+    }
+    .skillsection{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:325px) {
+
+    .ContentArea h3{
+        font-size: 30px;
+    }
+    .ContentArea h2{
+        font-size: 25px;
+    }
+    .Gifimage{
+        width: 310px;
+        height: 260px;
+    }
+    .BlackBar{
+        display: none;
+    }
+    .Aboutme{
+        margin-left: 5px;
+    }
+    .Aboutme h3{
+        width: 300px;
+    }
+    .About{
+        padding: 5px;
+    }
+    .About button{
+        padding: 20px;
+    }
+    .About p{
+        width: 95%;
+    }
+    .skillsection{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
