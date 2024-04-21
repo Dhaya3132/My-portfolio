@@ -108,6 +108,36 @@
     .ProjectCard{
         margin-bottom: 50px;
     }
+    .Skillset1{
+        display: flex;
+        gap: 10px;
+    }
+    .Skillset2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 5px;
+        justify-content: center;
+    }
+    .Skillset3{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 5px;
+    }
+    .Skillset4{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 5px;
+    }
+    .Skillset5{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 5px;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width:380px) {
@@ -175,6 +205,36 @@
     .ProjectCard{
         margin-bottom: 50px;
     }
+    .Skillset1{
+        display: flex;
+        gap: 10px;
+    }
+    .Skillset2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 5px;
+        justify-content: center;
+    }
+    .Skillset3{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 5px;
+    }
+    .Skillset4{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 5px;
+    }
+    .Skillset5{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 5px;
+        justify-content: center;
+    }
 }
 @media screen and (max-width:325px) {
 
@@ -220,5 +280,35 @@
     }
     .ProjectCard{
         margin-bottom: 50px;
+    }
+    .Skillset1{
+        display: flex;
+        gap: 10px;
+    }
+    .Skillset2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 5px;
+        justify-content: center;
+    }
+    .Skillset3{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 5px;
+    }
+    .Skillset4{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 5px;
+    }
+    .Skillset5{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 5px;
+        justify-content: center;
     }
 }

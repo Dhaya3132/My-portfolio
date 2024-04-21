@@ -351,24 +351,28 @@ nav button {
 
 .Skillset1{
   margin-bottom: 30px;
+  rotate: 1deg;
 }
 .Skillset2{
   margin-bottom: 30px;
+  rotate: -2deg;
 }.Skillset3{
   margin-bottom: 30px;
+  rotate: 2deg;
 }.Skillset4{
   margin-bottom: 30px;
+  rotate: -4deg;
 }.Skillset5{
   margin-bottom: 30px;
+  rotate: 1deg;
 }
 
 .Skillset1 span{
-  background-color: #111;
+  background-color: #5438fd;
   color: #ffffff;
   padding: 10px 20px 10px 20px;
   border-radius: 5px;
   font-family: poppins;
-  rotate: 10deg;
 }
 
 .Skillset2 span{
@@ -380,7 +384,7 @@ nav button {
 }
 
 .Skillset3 span{
-  background-color: #111;
+  background-color: #5438fd;
   color: #ffffff;
   padding: 10px 20px 10px 20px;
   border-radius: 5px;
@@ -396,7 +400,7 @@ nav button {
 }
 
 .Skillset5 span{
-  background-color: #111;
+  background-color: #5438fd;
   color: #ffffff;
   padding: 10px 20px 10px 20px;
   border-radius: 5px;
@@ -413,8 +417,4 @@ nav button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.HTML{
-  rotate: -10deg;
 }
