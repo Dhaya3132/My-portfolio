@@ -335,10 +335,86 @@ nav button {
   color: grey;
 }
 
+.ProjectCard a{
+  color: #5438fd;
+  font-size: 12px;
+  font-family: poppins;
+}
+
 .Cards{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
   margin-top: 30px;
+}
+
+.Skillset1{
+  margin-bottom: 30px;
+}
+.Skillset2{
+  margin-bottom: 30px;
+}.Skillset3{
+  margin-bottom: 30px;
+}.Skillset4{
+  margin-bottom: 30px;
+}.Skillset5{
+  margin-bottom: 30px;
+}
+
+.Skillset1 span{
+  background-color: #111;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  font-family: poppins;
+  rotate: 10deg;
+}
+
+.Skillset2 span{
+  background-color: #111;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  font-family: poppins;
+}
+
+.Skillset3 span{
+  background-color: #111;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  font-family: poppins;
+}
+
+.Skillset4 span{
+  background-color: #111;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  font-family: poppins;
+}
+
+.Skillset5 span{
+  background-color: #111;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  font-family: poppins;
+}
+
+.Skills i{
+  margin-right: 5px;
+}
+
+.Skills{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HTML{
+  rotate: -10deg;
 }

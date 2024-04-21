@@ -4,7 +4,7 @@
         flex-wrap: wrap;
     }
     .ProjectCard{
-        margin-bottom: 40px;
+        margin-bottom: 60px;
     }
     
 }
@@ -39,7 +39,7 @@
         flex-wrap: wrap;
     }
     .ProjectCard{
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
 }
 
@@ -106,7 +106,7 @@
         margin-top: 30px;
     }
     .ProjectCard{
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
 }
 
@@ -173,7 +173,7 @@
         margin-top: 30px;
     }
     .ProjectCard{
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
 }
 @media screen and (max-width:325px) {
@@ -219,6 +219,6 @@
         margin-top: 30px;
     }
     .ProjectCard{
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
 }
