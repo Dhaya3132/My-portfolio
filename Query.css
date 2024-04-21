@@ -1,3 +1,14 @@
+@media screen and (max-width:1026px) {
+    .Cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ProjectCard{
+        margin-bottom: 40px;
+    }
+    
+}
+
 @media screen and (max-width: 768px) {
     .UnorderItem
     {
@@ -22,6 +33,13 @@
     .skillsection{
         display: flex;
         flex-wrap: wrap;
+    }
+    .Cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ProjectCard{
+        margin-bottom: 40px;
     }
 }
 
@@ -60,6 +78,36 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .Aboutme{
+        margin-left: 5px;
+    }
+    .Aboutme h3{
+        width: 300px;
+    }
+    .About{
+        padding: 5px;
+    }
+    .About button{
+        padding: 20px;
+    }
+    .About p{
+        width: 95%;
+    }
+    .skillsection{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ProjectTitle{
+        margin-left: 10px;
+    }
+    .Cards{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .ProjectCard{
+        margin-bottom: 40px;
+    }
 }
 
 @media screen and (max-width:380px) {
@@ -97,6 +145,36 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .Aboutme{
+        margin-left: 5px;
+    }
+    .Aboutme h3{
+        width: 300px;
+    }
+    .About{
+        padding: 5px;
+    }
+    .About button{
+        padding: 20px;
+    }
+    .About p{
+        width: 95%;
+    }
+    .skillsection{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ProjectTitle{
+        margin-left: 10px;
+    }
+    .Cards{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .ProjectCard{
+        margin-bottom: 40px;
+    }
 }
 @media screen and (max-width:325px) {
 
@@ -131,5 +209,16 @@
     .skillsection{
         display: flex;
         flex-wrap: wrap;
+    }
+    .ProjectTitle{
+        margin-left: 10px;
+    }
+    .Cards{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .ProjectCard{
+        margin-bottom: 40px;
     }
 }
