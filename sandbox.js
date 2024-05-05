@@ -33,7 +33,7 @@ const CVButton = document.getElementById('CV');
 
 CVButton.addEventListener('click',()=>{
 
-    let Pdf = 'https://drive.google.com/file/d/1nCDcFxYKDIxcwqKpv0Nr1tzFEU2CvfZ9/view?usp=drive_link';
+    let Pdf = 'https://drive.google.com/file/d/1yvoO5LcWadvErH6oa0GAASQIpmClpowq/view?usp=sharing';
     window.open(Pdf, '_blank');
 })
 
