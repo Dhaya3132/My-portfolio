@@ -458,17 +458,39 @@ nav button {
 }
 
 .loader {
-  border: 16px solid #f3f3f3;
-  border-top: 16px solid #3498db;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  animation: spin 2s linear infinite;
+  background: #5438fd;
+  animation : anim 2s linear infinite;
+  position: absolute;
 }
 
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+.loader:nth-child(2){
+  animation-delay: .2s;
+}
+
+.loader:nth-child(3){
+  animation-delay: .5s;
+}
+
+@keyframes anim {
+  0% { transform-origin: 
+    400% 50%;
+    transform: rotate(0);
+  }
+  50% { 
+    transform-origin: 400% 50%;
+    transform: rotate(360deg);
+   }
+   50.1%{
+    transform-origin: -300% 50%;
+    transform:rotate(360deg);
+   }
+   100%{
+    transform-origin: -300% 50%;
+    transform: rotate(0deg);
+   }
 }
 
 
