@@ -82,8 +82,4 @@ Projectsidebar.addEventListener('click', () => {
 
     proj.scrollIntoView({ behavior: 'smooth' });
 })
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 84d8c73e944581b49f7821d8cc31e026bbc95381
