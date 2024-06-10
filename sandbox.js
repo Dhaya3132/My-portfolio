@@ -1,37 +1,43 @@
+
+document.addEventListener("DOMContentLoaded", function () {
+    window.onload = function () {
+        document.getElementById('preloader').style.display = 'none';
+        document.getElementById('content').style.display = 'block';
+    }
+});
+
 const RandomTxt = document.getElementById('RandomText');
 
 const DataArray = ['Web Developer', 'Web Designer'];
 
-function randomnumbers(max)
-{
-    return Math.floor(Math.random()*max);
+function randomnumbers(max) {
+    return Math.floor(Math.random() * max);
 }
 
-function changeText(){
+function changeText() {
     RandomTxt.innerText = DataArray[randomnumbers(2)];
 }
 
 changeText();
 
-setInterval(changeText, 2 * 1000); 
+setInterval(changeText, 2 * 1000);
 
 const Sidebar = document.getElementById('sidebaricon');
 const Slide = document.getElementById('Sidebar');
 const Close = document.getElementById('close');
 
 
-Sidebar.addEventListener('click',()=>{
-   Slide.style.display = 'block';
+Sidebar.addEventListener('click', () => {
+    Slide.style.display = 'block';
 })
 
-Close.addEventListener('click', ()=>
-{
+Close.addEventListener('click', () => {
     Slide.style.display = 'none';
 })
 
 const CVButton = document.getElementById('CV');
 
-CVButton.addEventListener('click',()=>{
+CVButton.addEventListener('click', () => {
 
     let Pdf = 'https://drive.google.com/file/d/1yvoO5LcWadvErH6oa0GAASQIpmClpowq/view?usp=sharing';
     window.open(Pdf, '_blank');
@@ -39,7 +45,7 @@ CVButton.addEventListener('click',()=>{
 
 const Contacts = document.getElementById('MyContact');
 
-Contacts.addEventListener('click',()=>{
+Contacts.addEventListener('click', () => {
     const Contact = document.getElementById('Contacts');
 
     Contact.scrollIntoView({ behavior: 'smooth' });
@@ -47,43 +53,37 @@ Contacts.addEventListener('click',()=>{
 
 const Abouts = document.getElementById('Aboutmee');
 
-Abouts.addEventListener('click',()=>{
+Abouts.addEventListener('click', () => {
     const about = document.getElementById('AboutMe');
 
-    about.scrollIntoView({behavior:'smooth'});
+    about.scrollIntoView({ behavior: 'smooth' });
 })
 
 const Projects = document.getElementById('Myprojectss');
 
-Projects.addEventListener('click',()=>{
+Projects.addEventListener('click', () => {
     const proj = document.getElementById('MyProjects');
 
-    proj.scrollIntoView({behavior:'smooth'});
+    proj.scrollIntoView({ behavior: 'smooth' });
 })
 
 const aboutsidebar = document.getElementById('AboutmeSidebar');
 
-aboutsidebar.addEventListener('click',()=>{
+aboutsidebar.addEventListener('click', () => {
     const about = document.getElementById('AboutMe');
 
-    about.scrollIntoView({behavior:'smooth'});
+    about.scrollIntoView({ behavior: 'smooth' });
 })
 
 const Projectsidebar = document.getElementById('MyprojectsSidebar');
 
-Projectsidebar.addEventListener('click',()=>{
+Projectsidebar.addEventListener('click', () => {
     const proj = document.getElementById('MyProjects');
 
-    proj.scrollIntoView({behavior:'smooth'});
+    proj.scrollIntoView({ behavior: 'smooth' });
 })
 <<<<<<< HEAD
 
 
-document.addEventListener("DOMContentLoaded", function() {
-    window.onload = function() {
-        document.getElementById('preloader').style.display = 'none';
-        document.getElementById('content').style.display = 'block';
-    }
-});
 =======
 >>>>>>> 84d8c73e944581b49f7821d8cc31e026bbc95381
