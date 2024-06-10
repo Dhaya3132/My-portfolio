@@ -474,7 +474,4 @@ nav button {
 
 #content {
   display: none;
-  height: 100%;
-  overflow: auto;
-  padding: 20px;
 }
