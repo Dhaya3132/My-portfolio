@@ -33,7 +33,7 @@ const CVButton = document.getElementById('CV');
 
 CVButton.addEventListener('click',()=>{
 
-    let Pdf = 'https://drive.google.com/file/d/1nCDcFxYKDIxcwqKpv0Nr1tzFEU2CvfZ9/view?usp=drive_link';
+    let Pdf = 'https://drive.google.com/file/d/1yvoO5LcWadvErH6oa0GAASQIpmClpowq/view?usp=sharing';
     window.open(Pdf, '_blank');
 })
 
@@ -76,6 +76,7 @@ Projectsidebar.addEventListener('click',()=>{
 
     proj.scrollIntoView({behavior:'smooth'});
 })
+<<<<<<< HEAD
 
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -84,3 +85,5 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('content').style.display = 'block';
     }
 });
+=======
+>>>>>>> 84d8c73e944581b49f7821d8cc31e026bbc95381
