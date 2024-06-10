@@ -76,3 +76,11 @@ Projectsidebar.addEventListener('click',()=>{
 
     proj.scrollIntoView({behavior:'smooth'});
 })
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    window.onload = function() {
+        document.getElementById('preloader').style.display = 'none';
+        document.getElementById('content').style.display = 'block';
+    }
+});
